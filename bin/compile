@@ -64,7 +64,7 @@ echo "-----> Writing policy file"
 mkdir -p $INSTALL_DIR/etc/ImageMagick
 cat > $INSTALL_DIR/policy.xml <<EOF
 <policymap>
-  <policy domain="resource" name="memory" value="256MiB"/>
+  <policy domain="resource" name="memory" value="768MiB"/>
   <policy domain="resource" name="map" value="512MiB"/>
   <policy domain="resource" name="width" value="20KP"/>
   <policy domain="resource" name="height" value="20KP"/>
