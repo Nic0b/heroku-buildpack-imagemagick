@@ -9,7 +9,7 @@ set -o nounset
 
 # Update the following values to update the ImageMagick version installed by the buildpack.
 
-RELEASE_VERSION="7.0.8-68"
+RELEASE_VERSION="7.1.1-21"
 RELEASE_URL="https://github.com/steeple-org/imagemagick-bin/releases/download/$RELEASE_VERSION/ImageMagick-$RELEASE_VERSION.tar.xz"
 RELEASE_SHA256=1576374504fb619feb76179d24b5bd6d6eea008beac2d719e6d69bdef479a052
 
